@@ -13,7 +13,7 @@ repositories {
 }
 
 ext {
-    junitVersion = '5.8.2'
+    junitVersion = '5.9.0'
 }
 
 sourceCompatibility = '18'
@@ -53,4 +53,12 @@ jlink {
 
 jlinkZip {
     group = 'distribution'
+}
+
+sourceSets {
+    test {
+        java {
+            srcDir 'src/test'
+        }
+    }
 }
