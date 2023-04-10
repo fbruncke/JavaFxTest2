@@ -20,7 +20,7 @@ class HelloApplicationTest {
     @Test
     public void testAddTwoEvenDigits()
     {
-        //tripple A test
+        //tripple A test add method
 
         //arrange
         Calculator c = new Calculator();

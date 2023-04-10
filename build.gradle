@@ -8,6 +8,12 @@ plugins {
 group 'com.example'
 version '1.0-SNAPSHOT'
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.example.javafxtest2.HelloApplication'
+    }
+}
+
 repositories {
     mavenCentral()
 }
